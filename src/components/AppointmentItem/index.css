@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  border: solid #b5b7c4 1px;
+  border-radius: 10px;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.appointment {
+  font-size: 15px;
+  color: #171f46;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+.star-button {
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+}

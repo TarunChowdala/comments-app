@@ -1,0 +1,105 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+.container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+.form {
+  width: 40%;
+}
+.heading {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #171f46;
+}
+.input-text {
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: #b5b7c4;
+}
+.date-text {
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: #b5b7c4;
+}
+.input-element {
+  width: 100%;
+  padding: 10px;
+  border: solid #b5b7c4 2px;
+  border-radius: 5px;
+}
+.button {
+  margin-top: 25px;
+  background-color: #8b5cf6;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  width: 50px;
+}
+.image {
+  width: 350px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .image {
+    display: none;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
+.appointment-text {
+  font-size: 20px;
+  color: #171f46;
+}
+.unstarred-button {
+  background-color: transparent;
+  border: solid 1px #9897f0;
+  color: #9897f0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px;
+  width: 60px;
+}
+.starredMsg-button {
+  background-color: #9796f0;
+  border-style: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px;
+  width: 60px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
